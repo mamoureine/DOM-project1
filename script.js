@@ -10,7 +10,7 @@ const totalSpan = document.querySelector('.total');
 
 function updateTotal() {
   let total = 0;
-  const productContainers = document.querySelectorAll('.card-body');
+  const productContainers = document.querySelectorAll('.list-products > .card-body');
   
   productContainers.forEach(container => {
     const unitPriceElement = container.querySelector('.unit-price');
